@@ -3,6 +3,7 @@ import { explores, exploreCategories } from '../constants'
 import ExploreCard from './ExploreCard'
 
 
+
 const Explore = () => {
   const [active, setActive] = useState(2)
   const [activeCard, setActiveCard] = useState('nft-1')
@@ -13,7 +14,7 @@ const Explore = () => {
   return (
     <div className="z-10 text-white mx-auto sm:p-16 xs:p-8 px-6 py-12 2xl:max-w-[1280px] justify-center items-center w-full gap-4 flex flex-col">
         <h1 className="text-white text-[42px] font-bold">Explore Marketplace</h1>
-        <div className="flex flex-row gap-4 overflow-x-auto w-full noscroll">
+        <div className="flex flex-row gap-4 mx-auto lg:justify-center overflow-x-auto w-full noscroll">
         {exploreCategories.map(({title, id}) => 
           <button 
             key={id}

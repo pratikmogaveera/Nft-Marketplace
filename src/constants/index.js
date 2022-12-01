@@ -25,7 +25,7 @@ export const trendings = [
     }
   ]
 
-  export const exploreCategories = [
+export const exploreCategories = [
     {
       id: 1,
       title: 'Collectibles'
@@ -58,9 +58,9 @@ export const trendings = [
       id: 8,
       title: 'Trading Cards'
     },
-  ]
+]
 
-  export const explores = [
+export const explores = [
     {
       id: 'nft-6',
       imgUrl: '/assets/nft6.jpg',
@@ -109,4 +109,39 @@ export const trendings = [
         title: 'Tuinz Rey',
         price: 3.25,
     }
-  ]
+]
+
+export const topCreators = [
+  {
+    id: 'top-1',
+    profile:'/assets/profile1.jpg',
+    cover: '/assets/cover1.jpg',
+    name: 'Hibnaster',
+    artwork: 14.9,
+    following: false,
+  },
+  {
+    id: 'top-2',
+    profile:'/assets/profile2.jpg',
+    cover: '/assets/cover2.jpg',
+    name: 'Tukirin',
+    artwork: 21.3,
+    following: true,
+  },
+  {
+    id: 'top-3',
+    profile:'/assets/profile3.jpg',
+    cover: '/assets/cover3.jpg',
+    name: 'Aksaraz',
+    artwork: 4.9,
+    following: false,
+  },
+  {
+    id: 'top-4',
+    profile:'/assets/profile4.jpg',
+    cover: '/assets/cover4.jpg',
+    name: 'Yuk Jum',
+    artwork: 17.8,
+    following: true,
+  },
+]

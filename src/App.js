@@ -4,16 +4,19 @@ function App() {
     <div className="bg-[#000]">
       <Navbar />
       <Hero />
-      {/* <div className="relative"> */}
-        {/* <div className="gradient-03" /> */}
+      <div className="relative">
+        <div className="hidden lg:flex absolute gradient-04 z-0" />
         <Trending />
-      {/* </div> */}
-      {/* <div className="relative"> */}
+      </div>
+      <div className="relative">
       <Explore />
-        {/* <div className="gradient-02 z-0" /> */}
+        <div className="hidden lg:flex absolute gradient-02 z-0" />
+      </div>
+      <div className="relative">
       <TopCreator />
-      {/* </div> */}
+        <div className="hidden lg:flex absolute gradient-03 z-0"/>
       <Footer />
+      </div>
     </div>
   );
 }
