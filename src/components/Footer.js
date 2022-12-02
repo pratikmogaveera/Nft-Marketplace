@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="footer-gradient"/>
       <div className="flex justify-center w-full my-10">
         <p className="text-white text-[14px] font-normal opacity-50">
-          © 2018 - 2022 NFTKING, Inc
+          © 2018 - 2022 NFT BASE, Inc
         </p>
       </div>
     </div>

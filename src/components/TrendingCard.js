@@ -2,7 +2,7 @@ import React from 'react'
 
 const TrendingCard = ({imgUrl, id, title, price}) => {
   return (
-    <div className="relative text-white w-full justify-center lg:w-[500px] h-[470px]">
+    <div className="z-10 relative text-white w-full justify-center lg:w-[500px] h-[470px]">
       <img src={imgUrl} alt={title} className="mx-auto object-cover h-[90%] w-[90%] rounded-[24px]"/>
       <div className="rounded-[12px] absolute bottom-[5%] p-4 z-10 w-full border-[2px] bg-gray-400 bg-opacity-20 backdrop-blur">
         <div className='flex flex-row gap-4'>

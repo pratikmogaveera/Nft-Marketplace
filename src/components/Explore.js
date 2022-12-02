@@ -7,7 +7,6 @@ import ExploreCard from './ExploreCard'
 const Explore = () => {
   const [active, setActive] = useState(2)
   const [activeCard, setActiveCard] = useState('nft-1')
-  console.log(activeCard)
   const buttonInActive = "bg-[#000] border-[#3633D0] border-[2px] py-[8px] px-[24px] rounded-[30px] font-semibold"
   const buttonActive = "bg-gradient-to-r from-[#89C6FF] to-[#3633D0]  border-[2px] border-[#000] py-[8px] px-[24px] rounded-[30px] font-semibold"
   
